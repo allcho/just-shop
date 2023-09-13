@@ -1,0 +1,23 @@
+.form {
+    @apply flex flex-col;
+
+    & label{
+        @apply flex flex-col pb-2;
+
+        & input {
+            @apply border border-gray-superlight border-solid h-10 px-2;
+        }
+
+        & textarea{
+            @apply resize-none border border-gray-superlight border-solid h-80 px-2;
+        }
+
+        & p{
+            @apply text-xs text-red-origin;
+        }
+    }
+    
+    & button{
+        @apply bg-green-origin text-white rounded h-10 font-bold w-64;
+    }
+}

@@ -1,0 +1,21 @@
+.wrapper {
+  @apply flex flex-col;
+
+  .item{
+    @apply flex gap-x-6 max-md:flex-col;
+
+    & img{
+      @apply max-md:w-full;
+    }
+   
+    & > div{
+      @apply flex flex-col;
+      & h1{
+        @apply text-xl mb-5 font-medium;
+       }
+      & button{
+        @apply w-52 my-3;
+      }
+    }
+  }
+}

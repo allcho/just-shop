@@ -1,0 +1,18 @@
+.wrapper {
+  @apply flex flex-col justify-between pb-3;
+  & .image {
+    @apply rounded h-48 overflow-hidden max-md:h-auto max-md:w-full;
+  }
+
+  & .price {
+    @apply text-base font-medium leading-9;
+  }
+
+  & .color {
+    @apply text-base font-medium leading-9;
+  }
+  
+  & .title {
+    @apply leading-8 text-xl font-medium;
+  }
+}

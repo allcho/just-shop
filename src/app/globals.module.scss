@@ -1,0 +1,11 @@
+.wrapper {
+  @apply flex min-h-screen flex-row px-9 justify-center py-8;
+  
+  & > div{
+    @apply max-w-layout w-full flex justify-between; 
+
+    & > div:last-child{
+      @apply w-full;
+    }
+  }
+}

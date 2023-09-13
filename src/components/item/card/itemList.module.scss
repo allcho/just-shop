@@ -1,0 +1,15 @@
+.sort{
+  @apply flex justify-end pb-2 ;
+
+  
+
+  & select {
+    @apply h-8 bg-white border border-gray-superlight border-solid px-2;
+
+  }
+}
+
+.list {
+  @apply grid gap-x-8 gap-y-4 grid-cols-3-items max-xl:grid-cols-3-itemsMaxXl max-md:grid-cols-2-itemsMaxMd max-sm:grid-cols-1-itemsMaxSm;
+}
+

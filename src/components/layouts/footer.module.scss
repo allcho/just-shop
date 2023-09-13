@@ -1,0 +1,7 @@
+.wrapper {
+    @apply  bg-gray-light h-12 flex justify-center items-center;
+    & > div{
+        @apply max-w-layout w-full px-9 flex justify-center;
+
+    }
+}

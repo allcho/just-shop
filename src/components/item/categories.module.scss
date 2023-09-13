@@ -1,0 +1,27 @@
+.wrapper {
+  @apply w-72 max-lg:absolute top-2;
+
+  & h2{
+    @apply text-3xl font-semibold pb-2 max-lg:flex max-lg:text-base max-lg:text-white max-lg:items-center max-lg:cursor-pointer;
+
+    & svg{
+      @apply lg:hidden max-lg:mr-1;
+    }
+  }
+
+  & ul{
+
+    @apply max-lg:hidden;
+ 
+
+    &.show{
+      @apply block bg-white border border-gray-superlight border-solid px-1;
+  }
+    
+
+    & a{
+      @apply hover:text-red-origin;
+    }
+  }
+
+}

@@ -1,0 +1,6 @@
+.wrapper {
+    @apply flex bg-brown-dark h-10 w-full px-9 items-center justify-end text-white text-xs;
+    & > svg {
+        @apply mr-1;
+    }
+}

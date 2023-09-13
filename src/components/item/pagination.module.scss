@@ -1,0 +1,13 @@
+ 
+ .pagination {
+  @apply flex justify-between items-center py-8;
+
+  & .item {
+   @apply flex justify-center items-center w-8 h-8 rounded-lg cursor-pointer border border-gray-superlight border-solid;
+
+    & a{
+      @apply p-3 cursor-pointer;
+    }
+   }
+ }
+ 

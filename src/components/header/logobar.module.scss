@@ -1,0 +1,23 @@
+.wrapper {
+    @apply flex bg-white h-20 w-full px-9 items-center justify-center;
+    
+   & > div{
+    @apply max-w-layout w-full flex justify-between; 
+
+    & .logo{
+        @apply flex items-center text-red-origin text-3xl font-bold;
+    }
+
+    & .cart{
+        @apply text-black-content;
+
+        & > a{
+            @apply flex flex-col items-center text-sm hover:text-red-origin relative;
+
+            & > span{
+                @apply absolute bg-green-origin w-5 h-5 text-center rounded-2xl top-1 right-9 text-white;
+            }
+        }
+    }
+   }
+}
